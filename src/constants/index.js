@@ -43,7 +43,7 @@ export const facilities = [
   {
     title: 'Viva Cafe',
     description: 'Artisan coffee and high-protein nutrition for your post-workout fuel.',
-    image: '/assets/reception-office.jpg',
+    image: '/assets/cafe-food-1.jpg',
     span: 'md:col-span-6',
     titleSize: 'text-xl',
     padding: 'p-8',
@@ -69,6 +69,10 @@ export const galleryItems = [
   { type: 'video', src: '/assets/hero-video-3.mp4' },
   { type: 'image', src: '/assets/gym-floor-weights.jpg', alt: 'Gym Floor' },
   { type: 'image', src: '/assets/cardio-zone.jpg', alt: 'Cardio Zone' },
+  { type: 'video', src: '/assets/cafe-motion-1.mp4' },
+  { type: 'image', src: '/assets/cafe-food-2.jpg', alt: 'Fresh Fruit Bowl' },
+  { type: 'image', src: '/assets/cafe-food-4.jpg', alt: 'Protein Wrap' },
+  { type: 'video', src: '/assets/cafe-motion-2.mp4' },
 ]
 
 export const pricingTiers = [
@@ -115,6 +119,35 @@ export const recoveryFeatures = [
     title: 'Polar Ice Bath',
     description: 'Immediate inflammation reduction and mental clarity.',
   },
+]
+
+export const cafeHighlights = [
+  {
+    title: 'High-Protein Bowls',
+    description: 'Balanced meals packed with lean protein, fresh vegetables, and superfoods to fuel your gains.',
+    icon: 'restaurant',
+  },
+  {
+    title: 'Fresh Fruit Bowls',
+    description: 'Seasonal dragon fruit, pomegranate, kiwi, and more — nature\'s recovery formula.',
+    icon: 'nutrition',
+  },
+  {
+    title: 'Wraps & Bites',
+    description: 'Grilled protein wraps and healthy snacks crafted for on-the-go nutrition.',
+    icon: 'lunch_dining',
+  },
+]
+
+export const cafeGallery = [
+  { type: 'image', src: '/assets/cafe-food-1.jpg', alt: 'Protein Bowl with Eggs' },
+  { type: 'video', src: '/assets/cafe-motion-3.mp4' },
+  { type: 'image', src: '/assets/cafe-food-2.jpg', alt: 'Fresh Fruit Bowl' },
+  { type: 'video', src: '/assets/cafe-motion-4.mp4' },
+  { type: 'image', src: '/assets/cafe-food-4.jpg', alt: 'Grilled Protein Wrap' },
+  { type: 'video', src: '/assets/cafe-motion-1.mp4' },
+  { type: 'image', src: '/assets/cafe-food-3.jpg', alt: 'Fruit Bowl Close-up' },
+  { type: 'video', src: '/assets/cafe-motion-2.mp4' },
 ]
 
 export const navLinks = [

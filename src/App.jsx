@@ -5,6 +5,7 @@ import Facilities from './components/Facilities'
 import Gallery from './components/Gallery'
 import Pricing from './components/Pricing'
 import Recovery from './components/Recovery'
+import Cafe from './components/Cafe'
 import CTABanner from './components/CTABanner'
 import Footer from './components/Footer'
 
@@ -19,6 +20,7 @@ export default function App() {
         <Gallery />
         {/* <Pricing /> */}
         <Recovery />
+        <Cafe />
         <CTABanner />
       </main>
       <Footer />
